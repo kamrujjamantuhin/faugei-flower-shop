@@ -53,6 +53,9 @@ nav ul li{
     list-style: none;
     margin-right: 40px;
 }
+nav li:last-child{
+    margin-right: 0;
+}
 nav ul a{
     text-decoration: none;
 }
@@ -64,7 +67,6 @@ nav ul a{
 }
 .banner-content{
     max-width: 570px;
-    margin-top: 70px;
 }
 .banner-img{
     max-width: 570px;
