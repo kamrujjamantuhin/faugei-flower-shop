@@ -90,4 +90,14 @@ nav ul a{
     #nav-links{
         display: none;
     }
+    .banner{
+        flex-direction: column-reverse;
+        margin-top: 25px;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .banner-content{
+        padding: 0 50px;
+    }
 }
