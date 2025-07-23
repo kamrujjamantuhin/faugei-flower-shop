@@ -78,3 +78,16 @@ nav ul a{
 .banner-description{
     margin-top: -30px;
 }
+/* Responsive Media Query */
+@media screen and (max-width: 576px) {
+    nav{
+        margin: 30px;
+    }
+    .logo{
+        height: 38px;
+        width: 63px;
+    }
+    #nav-links{
+        display: none;
+    }
+}
