@@ -10,3 +10,37 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+.font-open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* Shared Styles */
+.nav-links-dark-1{
+    color: #252432;
+}
+.nav-links-dark-2{
+    color: #000000;
+}
+.nav-links-light{
+    color: #8987A1;
+}
+/* Nav Styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 40px;
+}
+nav ul a{
+    text-decoration: none;
+}
