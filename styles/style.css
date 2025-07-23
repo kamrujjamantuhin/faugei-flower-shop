@@ -92,12 +92,16 @@ nav ul a{
     }
     .banner{
         flex-direction: column-reverse;
-        margin-top: 25px;
+        margin-top: 25px; 
     }
     .banner-img{
         width: 100%;
     }
-    .banner-content{
-        padding: 0 50px;
+    .banner-title{
+        font-size: 24px;
+    }
+    .banner-description{
+        font-size: 14px;
+        margin-top: 20px;
     }
 }
