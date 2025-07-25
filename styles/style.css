@@ -152,6 +152,50 @@ nav ul a{
     height: 285px;
     width: 285px;
 }
+/* Latest Deals Styles */
+.collage-container{
+    display: flex;
+    gap: 25px;
+    margin-top: 80px;
+}
+.collage-column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 3px;
+    position: relative;
+}
+.collage-column img{
+    border-radius: 14px;
+}
+.collage-row img{
+    border-radius: 22px;
+}
+.image-description{
+    position: absolute;
+    top: 65px;
+    left: 80px;
+    font-size: 1.15rem;
+    font-weight: bold;
+    color: white;
+}
+.collage-row{
+    position: relative;
+}
+.row-image-description{
+    position: absolute;
+    top: 140px;
+    left: 130px;
+    color: white;
+}
+.row-image-description .offer{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.row-image-description .shopping{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
 /* Responsive Media Query */
 @media screen and (max-width: 576px) {
     nav{
