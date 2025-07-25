@@ -116,7 +116,7 @@ nav ul a{
     color: white;
     padding: 19px 80px;
     border: none;
-    width: 100%;
+    /* width: 100%; */
 }
 /* Trusted Seller Styles */
 .trusted-seller{
@@ -198,6 +198,7 @@ nav ul a{
 }
 /* Responsive Media Query */
 @media screen and (max-width: 576px) {
+    /* Nav Styles */
     nav{
         margin: 30px;
     }
@@ -208,6 +209,7 @@ nav ul a{
     #nav-links{
         display: none;
     }
+    /* Banner Styles */
     .banner{
         flex-direction: column-reverse;
         margin-top: 25px; 
@@ -222,7 +224,9 @@ nav ul a{
         font-size: 14px;
         margin-top: 20px;
     }
+    /* Trusted Seller Styles */
     .trusted-seller{
+        display: block;
         flex-direction: column;
         width: 100%;
     }
@@ -230,7 +234,7 @@ nav ul a{
         display: none;
     }
     .trusted-seller-content{
-        margin-top: -50px;
+        margin-top: -30px;
         padding: 10px;
     }
     .trusted-seller-title{
