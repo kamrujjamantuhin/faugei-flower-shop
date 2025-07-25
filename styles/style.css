@@ -132,7 +132,7 @@ nav ul a{
     font-weight: bold;
 }
 .trusted-seller-content{
-    max-width: 540px;
+    max-width: 530px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -221,5 +221,22 @@ nav ul a{
     .banner-description{
         font-size: 14px;
         margin-top: 20px;
+    }
+    .trusted-seller{
+        flex-direction: column;
+        width: 100%;
+    }
+    .trusted-badge{
+        display: none;
+    }
+    .trusted-seller-content{
+        margin-top: -50px;
+        padding: 10px;
+    }
+    .trusted-seller-title{
+        font-size: 2rem;
+    }
+    .trusted-seller-description{
+        margin-left: -20px;
     }
 }
