@@ -94,6 +94,9 @@ nav ul a{
     margin-top: -30px;
 }
 /* Plants Styles */
+.plant{
+    margin-bottom: 50px;
+}
 .plants-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -114,6 +117,40 @@ nav ul a{
     padding: 19px 80px;
     border: none;
     width: 100%;
+}
+/* Trusted Seller Styles */
+.trusted-seller{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+.trusted-seller img{
+    max-width: 540px;
+}
+.trusted-seller-title{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.trusted-seller-content{
+    max-width: 540px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.trusted-seller-description ul li{
+    margin-top: 30px;
+    font-size: 1rem;
+}
+.trusted-seller-image-container{
+    position: relative;
+}
+.trusted-badge{
+    position: absolute;
+    top: -120px;
+    left: 350px;
+}
+.trusted-badge img{
+    height: 285px;
+    width: 285px;
 }
 /* Responsive Media Query */
 @media screen and (max-width: 576px) {
