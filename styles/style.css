@@ -233,6 +233,28 @@ nav ul a{
   border-radius: 4px 0 0 4px;
   outline: none;
 }
+/* Footer Styles */
+.footer{
+    background-color: white;
+    padding: 30px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+}
+.brand-brief{
+    max-width: 360px;
+}
+.footer-column li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.footer-column li a{
+    text-decoration: none;
+}
+.social-links img{
+    margin-right: 5px;
+}
 /* Responsive Media Query */
 @media screen and (max-width: 576px) {
     /* Nav Styles */
