@@ -17,6 +17,10 @@
   font-variation-settings:
     "wdth" 100;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 /* Shared Styles */
 .nav-links-dark-1{
     color: #252432;
@@ -43,19 +47,18 @@
     font-size: 3rem;
     font-weight: bold;
 }
-.section-description{
-    margin-top: -20px;
-}
-body{
+main{
     max-width: 1140px;
     margin: 0 auto;
 }
-body section{
+main section{
     margin-top: 120px;
     margin-bottom: 120px;
 }
 /* Nav Styles */
 nav{
+    max-width: 1140px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -75,6 +78,8 @@ nav ul a{
 }
 /* Banner Styles */
 .banner{
+    max-width: 1140px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     margin-top: 70px;
@@ -89,9 +94,6 @@ nav ul a{
 .banner-title{
     font-size: 3rem;
     font-weight: bold;
-}
-.banner-description{
-    margin-top: -30px;
 }
 /* Plants Styles */
 .plant{
@@ -206,6 +208,7 @@ nav ul a{
     color: white;
     text-align: center;
     position: relative;
+    margin-bottom: 0;
 }
 .newsletter .newsletter-content{
   position: relative;
