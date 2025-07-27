@@ -304,12 +304,27 @@ nav ul a{
     }
     .trusted-seller-title{
         font-size: 2rem;
+        margin-top: 10px;
     }
     .trusted-seller-description{
         margin-left: -20px;
     }
+    /* Latest Deals Styles */
+    .collage-container{
+        flex-direction: column;
+    }
+    .collage-column, .collage-row{
+        width: 100%;
+    }
+    /* Newsletter Styles */
+    .subscribe-form {
+        width: 100%;
+        display: inline;
+        flex-wrap: wrap;
+    }
     /* Footer Styles */
     .footer-container{
-        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 }
